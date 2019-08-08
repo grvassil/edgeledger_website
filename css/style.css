@@ -53,7 +53,7 @@ a {
 }
 
 .border-test {
-  border: 1px solid #333;
+  border: 2px solid #000;
 }
 
 .btn {
@@ -212,13 +212,9 @@ a {
   display: flex;
 }
 
-#contact div {
-  flex: 1;
-  flex-basis: 50%;
-}
-
 #contact .contact-map {
   background: url("../img/people.jpg") center center/cover no-repeat;
+  flex: 1;
 }
 
 #contact .contact-form label {
@@ -226,6 +222,7 @@ a {
 }
 #contact .contact-form {
   padding: 2rem;
+  flex: 1;
 }
 
 #contact .contact-form input,
