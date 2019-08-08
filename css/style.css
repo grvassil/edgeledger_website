@@ -52,6 +52,10 @@ a {
   text-align: center;
 }
 
+.border-test {
+  border: 1px solid #333;
+}
+
 .btn {
   display: inline-block;
   padding: 0.5rem 2rem;
@@ -91,6 +95,10 @@ a {
 }
 .bg-dark {
   background-color: #333;
+  color: #fff;
+}
+.bg-primary {
+  background-color: #93cb52;
   color: #fff;
 }
 
@@ -197,4 +205,32 @@ a {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Section: Contact */
+#contact {
+  display: flex;
+}
+
+#contact div {
+  flex: 1;
+  flex-basis: 50%;
+}
+
+#contact .contact-map {
+  background: url("../img/people.jpg") center center/cover no-repeat;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+#contact .contact-form {
+  padding: 2rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea,
+#contact .contact-form button {
+  width: 100%;
+  padding: 0.5rem;
 }
